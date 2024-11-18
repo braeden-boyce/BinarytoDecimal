@@ -1,0 +1,48 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: hsl(62, 91%, 87%);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#title{
+    margin-top: 25px;
+    margin-bottom: 0%;
+    font-size: 2.75rem;
+    font-weight: bolder;
+    border: 2px solid hsl(0, 0, 0);
+    border-radius: 10px;
+}
+#description{
+    font-size: 1.75rem;
+    padding: 0%;
+    font-style: italic;
+}
+#binaryInput{
+    padding: 12px;
+    font-size: 1.25rem;
+    border: 2.5px solid black;
+    border-radius: 10px;
+    width: 400px;
+}
+#convertButton{
+    padding: 12px;
+    width: 150px;
+    align-items: center;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+#convertButton[type="submit"]:hover{
+    background-color: rgb(214, 214, 214);
+}
+#result{
+    font-size: 3rem;
+    margin: 10px;
+    font-style: normal;
+    font-weight: bolder;
+}
